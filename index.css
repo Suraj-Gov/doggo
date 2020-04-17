@@ -9,7 +9,7 @@
 
 .options {
     background-color: #e66866;
-    padding: 4vh;
+    padding: 2vh;
     position: sticky;
 }
 
@@ -18,7 +18,7 @@
     width: 80vw;
     display: block;
     margin: 0 auto;
-    font-size: 5vh;
+    font-size: 3vh;
     padding: 20px;
     border-radius: 30px;
     background-color: #eb8686;;
@@ -31,7 +31,7 @@
     bottom: 4vh;
     padding: 30px;
     border-radius: 10%;
-    font-size: 5vh;
+    font-size: 3vh;
     text-transform: uppercase;
     background-color: #eb8686;;
     border: 7px solid red;
@@ -39,15 +39,14 @@
 
 .clear-doggos {
     position: fixed;
-    bottom: 4vh;
     right: 4vh;
+    bottom: 4vh;
     padding: 30px;
     border-radius: 10%;
-    font-size: 5vh;
+    font-size: 3vh;
     text-transform: uppercase;
-    background-color: lightgrey;
-    border: 7px solid rgb(161, 161, 161);
-    color: rgba(37, 37, 37, 0.616);
+    background-color: #eb8686;;
+    border: 7px solid red;
 }
 
 h1 {
@@ -98,9 +97,6 @@ h1 {
 @media (max-width: 1600px) {
     .doggo-pics {
         column-count: 4;
-    }
-    h1 {
-        font-size: 7vw;
     }
 }
 
