@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.options {
+    background-color: #e66866;
+    padding: 4vh;
+    position: sticky;
+}
+
+.selector {
+    position: relative;
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+    font-size: 5vh;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #eb8686;;
+    border: 7px solid red;
+}
+
+.add-doggo {
+    position: fixed;
+    left: 4vh;
+    bottom: 4vh;
+    padding: 30px;
+    border-radius: 10%;
+    font-size: 5vh;
+    text-transform: uppercase;
+    background-color: #eb8686;;
+    border: 7px solid red;
+}
+
+.clear-doggos {
+    position: fixed;
+    bottom: 4vh;
+    right: 4vh;
+    padding: 30px;
+    border-radius: 10%;
+    font-size: 5vh;
+    text-transform: uppercase;
+    background-color: lightgrey;
+    border: 7px solid rgb(161, 161, 161);
+    color: rgba(37, 37, 37, 0.616);
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.5vw;
+    text-shadow: 6px 6px #4054bd;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13vw;
+    background-color: #556ee6;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.doggo-pics {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    FLEX didn't work beautifully
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: space-around; */
+    line-height: 2;
+    column-count: 3;
+    column-gap: 1vw;
+    margin: 1vw;
+    /* Taken from CSSTricks, seamless photo gallery */
+}
+
+.doggo-pic {
+    /* width: 30%; */
+    width: 100% !important;
+    height: auto !important;
+    border: 1vw solid rgb(53, 0, 0);
+    border-radius: 2%;
+}
+
+#loading {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 18vw;
+    height: 18vw;
+    display: none;
+    border-radius: 15%;
+}
+
+@media (max-width: 1600px) {
+    .doggo-pics {
+        column-count: 4;
+    }
+    h1 {
+        font-size: 7vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .doggo-pics {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    .doggo-pics {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 450px) {
+    .doggo-pics {
+        column-count: 1;
+    }
+}
